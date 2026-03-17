@@ -1,0 +1,28 @@
+[project]
+name = "fletcopy"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Volker Heggemann", email = "vohegg@gmail.com" }
+]
+dependencies = [
+    "flet>=0.80.5"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=0.82.0",
+    "flet-desktop-light>=0.82.0",
+    "flet-web>=0.82.0",
+]
+
+[tool.flet]
+org = "com.mycompany"
+product = "fletcopy"
+company = "Flet"
+copyright = "Copyright (C) 2023-2026 by Flet"
+
+[tool.flet.app]
+path = "src"
